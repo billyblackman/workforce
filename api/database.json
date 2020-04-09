@@ -104,17 +104,17 @@
         },
         {
             "id": 2,
-            "customerId": 2,
+            "customerId": 3,
             "employeeId": 1
         },
         {
             "id": 3,
-            "customerId": 1,
+            "customerId": 2,
             "employeeId": 2
         },
         {
             "id": 4,
-            "customerId": 2,
+            "customerId": 4,
             "employeeId": 2
         },
         {
@@ -136,6 +136,6 @@
             "id": 8,
             "customerId": 3,
             "employeeId": 4
-        },
+        }
     ]
 }
