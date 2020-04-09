@@ -11,7 +11,26 @@
             "id": 1,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Human Resources"
+        },
+        {
+            "id": 2,
+            "name": "Accounting"
+        },
+        {
+            "id": 3,
+            "name": "Sales"
+        },
+        {
+            "id": 2,
+            "name": "Customer Service"
         }
     ]
 }

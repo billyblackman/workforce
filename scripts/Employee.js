@@ -1,15 +1,16 @@
-const Employee = (employee, computer) => {
+const Employee = (employee, computer, department) => {
     return `
-        <section class="employee">
-            <header>
-                <h2>${employee.firstName} ${employee.lastName}</h2>
+        <div class="employee">
+            <header class="employee__name>
+                <h1>${employee.firstName} ${employee.lastName}</h1>
             </header>
-            <div>
-                <ul>
-                    <li>${computer.year} ${computer.model}</li>
-                </ul>
-            </div>
-        </section>
+            <section class="employee__computer">
+                ${computer.year} ${computer.model}
+            </section>
+            <section class="employee__department">
+                ${department.name}
+            </section>
+        </div>
     `
 }
 
