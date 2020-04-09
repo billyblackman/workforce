@@ -77,5 +77,65 @@
             "id": 4,
             "city": "New Orleans"
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Insulation Distributors"
+        },
+        {
+            "id": 3,
+            "name": "Kroger"
+        },
+        {
+            "id": 4,
+            "name": "Publix"
+        }
+    ],
+    "employeeCustomerRelationships": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 3,
+            "employeeId": 4
+        },
     ]
 }
