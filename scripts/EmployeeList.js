@@ -14,13 +14,18 @@ export const employeeList = () => {
     const render = () => {
         contentTarget.innerHTML = allEmployees.map(employee => {
             
+            //Find the employee's assigned computer
+
             const assignedComputer = allComputers.find(
-                computer => computer.id === employee.id
-            )
+                computer => computer.id === employee.id)
+
+            //Find the employee's assigned department
 
             const assignedDepartment = allDepartments.find(
                 department => department.id === employee.departmentId
             )
+
+            //Render the employee, computer, and department with the found objects as arguments
 
             return Employee(employee, assignedComputer, assignedDepartment)
         })

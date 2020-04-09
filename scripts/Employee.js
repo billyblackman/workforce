@@ -1,7 +1,7 @@
 const Employee = (employee, computer, department) => {
     return `
         <div class="employee">
-            <header class="employee__name>
+            <header class="employee__name">
                 <h1>${employee.firstName} ${employee.lastName}</h1>
             </header>
             <section class="employee__computer">

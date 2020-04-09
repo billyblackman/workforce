@@ -4,6 +4,6 @@ import { employeeList } from "./EmployeeList.js";
 import { getDepartments } from "./DepartmentDataProvider.js";
 
 getEmployees()
-    .then(getComputers)
     .then(getDepartments)
+    .then(getComputers)
     .then(employeeList)
