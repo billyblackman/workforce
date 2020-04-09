@@ -1,4 +1,4 @@
-const Employee = (employee, computer, department) => {
+const Employee = (employee, computer, department, location) => {
     return `
         <div class="employee">
             <header class="employee__name">
@@ -9,6 +9,9 @@ const Employee = (employee, computer, department) => {
             </section>
             <section class="employee__department">
                 ${department.name}
+            </section>
+            <section class="employee__location">
+                ${location.city}
             </section>
         </div>
     `
