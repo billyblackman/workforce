@@ -38,13 +38,12 @@ export const employeeList = () => {
             //Filter the employee's customer relationships into a new array
 
             const employeeCustomerRelationships = allEmployeeCustomerRelationships.filter(
-                relationship => relationship.employeeId === employee.id
-            )
+                relationship => relationship.employeeId === employee.id)
 
             //Map over the filtered array of relationships and return the matching customers for each employee
 
             const assignedCustomers = employeeCustomerRelationships.map(
-                relationship => {
+                relationship => { 
                     return allCustomers.find(customer => relationship.customerId === customer.id)
                 }
             )
@@ -53,6 +52,7 @@ export const employeeList = () => {
 
             return Employee(employee, assignedComputer, assignedDepartment, assignedLocation, assignedCustomers)
         })
+        .join(`<br>`)
     }
     render()
 }

@@ -27,16 +27,16 @@
         },
         {
             "id": 2,
-            "firstName": "Rainu",
-            "lastName": "Ittycheriah",
+            "firstName": "Skipper",
+            "lastName": "Woobles",
             "computerId": 2,
             "departmentId": 1,
             "locationId": 2
         },
         {
             "id": 3,
-            "firstName": "Rainu",
-            "lastName": "Ittycheriah",
+            "firstName": "Charleston",
+            "lastName": "Obediah",
             "computerId": 3,
             "departmentId": 4,
             "locationId": 4
