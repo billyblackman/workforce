@@ -45,8 +45,7 @@ export const employeeList = () => {
             const assignedCustomers = employeeCustomerRelationships.map(
                 relationship => { 
                     return allCustomers.find(customer => relationship.customerId === customer.id)
-                }
-            )
+                })
 
             //Render the employee, computer, and department with the found objects as arguments
 

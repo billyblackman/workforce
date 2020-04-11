@@ -28,8 +28,6 @@ const Employee = (employee, computer, department, location, customers) => {
                         .join("")
                     }
                     </ul>
-
-                    
             </section>
         </div>
     `
